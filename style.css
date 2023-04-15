@@ -1,0 +1,160 @@
+/* Body */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+/* Header */
+header {
+  background-color: #c00;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  background-color: #900;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #c00;
+}
+
+/* Main Content */
+main {
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+section {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 17px;
+  margin-bottom: 35px;
+  padding: 37px;
+}
+
+section h2 {
+  color: #c00;
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #c00;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* afbeelding stijlen */
+img {
+  max-width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* hover-effect */
+img:hover {
+  opacity: 0.8;
+}
+
+/* zoom-effect */
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+img {
+  display: block;
+  margin: 0 0 20px 20px;
+}
+
+.overons img {
+  max-width: 50%;
+  height: auto;
+}
+
+body {
+  background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+}
+
+
+a:hover,
+button:hover {
+  transition: all 0.3s ease-in-out;
+  transform: translateY(-3px);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  border: 1px solid #ccc;
+}
+
+nav a {
+  font-size: 1.2em;
+  color: #333;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #666;
+}
+
+
+h1, h2 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#bedankt-melding {
+  background-color: #c9e6c3;
+  border: 2px solid #6aa84f;
+  padding: 10px;
+  margin-top: 20px;
+}
+
